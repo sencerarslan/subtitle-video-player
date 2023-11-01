@@ -39,6 +39,9 @@ const VideoPlayerPage = ({ videoId }) => {
         default: false,
       },
     ],
+    html5: {
+      hls: { startLevel: 2, overrideNative: true },
+    },
   };
 
   return (
